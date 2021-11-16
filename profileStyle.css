@@ -48,6 +48,10 @@ aside {
     gap: 1.5em;
 }
 
+.gap {
+    gap: .5em;
+}
+
 .flex-start {
     align-items: flex-start;
 }
@@ -112,14 +116,6 @@ aside {
     min-height: 300px;
 }
 
-.requests {
-    min-height: 200px;
-}
-
-.connections {
-    min-height: 350px;
-}
-
 .test:hover {
     color: white;
     transition: 1s;
@@ -156,7 +152,7 @@ a {
 }
 
 .menuBody {
-    min-height: 250px;
+    /* min-height: 250px; */
     border-left: 5px solid grey;
     border-bottom: 5px solid grey;
     border-right: 5px solid grey;
@@ -173,10 +169,11 @@ a {
     padding: 5px;
 }
 
-.friendsflexed {
+.friendsFlexed {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-direction: column;
+    gap: 1em;
 }
 
 .menuBody.friendsFlexed img {
@@ -189,3 +186,16 @@ h3 {
     display: inline-block;
 }
 
+.flexed.gap img {
+    border-radius: 50%;
+}
+
+.checkButton {
+    cursor:pointer;
+    background-color: greenyellow;
+}
+
+.xButton {
+    cursor:pointer;
+    background-color: red;
+}
