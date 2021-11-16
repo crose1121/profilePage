@@ -20,11 +20,6 @@ header li a {
     transition: 1s;
 }
 
-main {
-    min-height: 400px;
-    flex: 2;
-}
-
 aside {
     min-height: 400px;
     flex: 1;
